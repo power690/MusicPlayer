@@ -1,0 +1,35 @@
+# Build artifacts
+/build/
+/app/build/
+/.gradle/
+/.idea/
+/local.properties
+
+# Gradle
+*.iml
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+*.pk8
+*.pem
+
+# Logs
+*.log
+
+# APK / AAB
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local config
+local.properties
