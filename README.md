@@ -6,7 +6,7 @@
 
 ⚠️ **本项目已废弃，不再维护。**
 
-谁想接手就来吧，欢迎 fork、二次开发、二次打包、商用，随便用。
+谁想接手就来吧，可二次开发、二次打包、商用，随便用。
 
 - ✅ 可商用
 - ✅ 可二次开发
@@ -16,7 +16,7 @@
 
 采用 MIT 协议，详见 [LICENSE](./LICENSE)。
 
-作者已决定从零重写新版本，这份代码作为参考开源出来。项目存在一些已知架构问题（详见下文），不推荐直接用于生产环境，但可作为学习、参考或二次开发的基础。
+作者已决定从零重写新版本，这份代码作为参考开源出来。
 
 ### 技术栈
 
@@ -45,15 +45,6 @@
 - 通知栏控制
 - 音频焦点管理
 
-### 已知问题
-
-新版本需要从架构层面重新设计：
-
-- 音乐库长列表（数百首歌曲）在某些设备上渲染异常
-- 列表项的 Compose 重组范围控制不够精细，存在性能瓶颈
-- LazyColumn 在 Column 子元素中的尺寸约束处理需要更严谨
-- 部分详情页（歌手、专辑）的数据查询和分类逻辑一致性需要重新设计
-
 ### 构建
 
 需要 Android SDK 37 + JDK 21。
@@ -74,7 +65,7 @@
 
 ⚠️ **This project is deprecated and no longer maintained.**
 
-Feel free to take it over. Fork it, modify it, repackage it, use it commercially — do whatever you want.
+Feel free to take it over. Modify it, repackage it, use it commercially — do whatever you want.
 
 - ✅ Commercial use allowed
 - ✅ Modification allowed
@@ -84,7 +75,7 @@ Feel free to take it over. Fork it, modify it, repackage it, use it commercially
 
 Released under the MIT License. See [LICENSE](./LICENSE).
 
-The author has decided to rewrite a new version from scratch. This codebase is open-sourced as a reference. There are some known architectural issues (see below); it is not recommended for production use directly, but it can serve as a base for learning, reference, or further development.
+The author has decided to rewrite a new version from scratch. This codebase is open-sourced as a reference.
 
 ### Tech Stack
 
@@ -112,15 +103,6 @@ The author has decided to rewrite a new version from scratch. This codebase is o
 - User profile (nickname + avatar)
 - Notification bar controls
 - Audio focus management
-
-### Known Issues
-
-The new version needs to be redesigned at the architectural level:
-
-- Long lists in the music library (hundreds of songs) render abnormally on some devices
-- Compose recomposition scope control for list items is not fine-grained enough, causing performance bottlenecks
-- LazyColumn size constraint handling within Column children needs to be more rigorous
-- Data query and classification logic consistency for detail pages (artists, albums) needs to be redesigned
 
 ### Build
 
